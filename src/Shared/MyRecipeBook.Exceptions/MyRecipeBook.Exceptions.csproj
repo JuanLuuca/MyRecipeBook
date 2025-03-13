@@ -25,7 +25,7 @@
       <LastGenOutput>ResourceMessageException.pt-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="ResourceMessageException.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>ResourceMessageException.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>

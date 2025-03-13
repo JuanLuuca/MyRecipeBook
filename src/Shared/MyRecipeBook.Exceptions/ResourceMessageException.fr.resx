@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="EMAIL_EMPTY" xml:space="preserve">
-    <value>email cannot to be empty</value>
+    <value>L'e-mail ne peut pas être vide</value>
   </data>
   <data name="EMAIL_INVALID" xml:space="preserve">
-    <value>email is invalid</value>
+    <value>Votre email n'est pas valide</value>
   </data>
   <data name="NAME_EMPTY" xml:space="preserve">
-    <value>Name cannot to be empty</value>
+    <value>Le nom ne peut pas être vide</value>
   </data>
   <data name="PASSWORD_EMPTY" xml:space="preserve">
-    <value>Password cannot to be empty</value>
+    <value>Le mot de passe ne peut pas être vide</value>
   </data>
 </root>
