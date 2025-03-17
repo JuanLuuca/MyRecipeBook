@@ -1,5 +1,6 @@
 ﻿using MyRecipeBook.Communication.Requests;
 using MyRecipeBook.Communication.Responses;
+using MyRecipeBook.Exceptions.ExceptionsBase;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,9 +28,9 @@ namespace MyRecipeBook.Application.UseCases.User.Register
 
             if (result.IsValid == false)
             {
-                var erroMessages = result.Errors.Select(e => e.ErrorMessage);
+                var erroMessages = result.Errors.Select(e => e.ErrorMessage).ToList();
 
-                throw new Exception();
+                throw new ErroOnValidationException(erroMessages);
             }
         }
     }

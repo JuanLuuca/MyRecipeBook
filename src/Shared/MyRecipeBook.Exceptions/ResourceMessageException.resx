@@ -129,4 +129,7 @@
   <data name="PASSWORD_EMPTY" xml:space="preserve">
     <value>Password cannot to be empty</value>
   </data>
+  <data name="UNKNOWN_ERROR" xml:space="preserve">
+    <value>Erro desconhecido</value>
+  </data>
 </root>
